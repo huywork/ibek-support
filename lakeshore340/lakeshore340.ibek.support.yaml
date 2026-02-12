@@ -56,4 +56,4 @@ entity_models:
         # use a regex to say that we want all the parameters in the template
         # this is equivalent to {P: '{{P}}', PORT: '{{PORT}}', ADDR: '{{ADDR}}', SCAN: '{{SCAN}}', TEMPSCAN: '{{TEMPSCAN}}', name: '{{name}}', LOOP: '{{LOOP}}'}
         args:
-          P: "{{P + ':' + name + ':'}}"
+          .*:
